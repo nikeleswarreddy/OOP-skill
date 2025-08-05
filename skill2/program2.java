@@ -1,0 +1,19 @@
+package skill2;
+import java.util.Scanner;
+public class program2 {
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the first string");
+		String a=sc.nextLine();
+		System.out.println("Enter the second string");
+		String b=sc.nextLine();
+		System.out.println("The first string is: "+a);
+		System.out.println("The second string is: "+b);
+		String c=String.join(" ",a,b); 
+		System.out.println("The final string is: "+c);
+		
+		sc.close();
+	}
+
+}
